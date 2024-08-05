@@ -42,9 +42,9 @@
             //                    | GUI | ALT | SPC |   | ENT | LWR  | RSE |
 
             bindings = <
-&mt TAB ESC &mt 1 Q &mt 2 W &mt 3 E &mt 4 R &mt 5 T        &mt 6 Y &mt 7 U &mt 8 I &mt 9 O &mt 0 P &mt BKSP DEL
-&td0       &kp A  &kp S  &kp D     &kp F    &kp G          &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V    &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp TAB
+&mt TAB ESC &mt N1 Q &mt N2 W &mt N3 E &mt N4 R &mt N5 T   &mt N6 Y &mt N7 U &mt N8 I  &mt N9 O &mt N0 P &mt BKSP DEL
+&td0        &kp A    &kp S    &kp D    &kp F    &kp G      &kp H    &kp J    &kp K     &kp L    &kp SEMI &kp SQT
+&kp LCTRL   &kp Z    &kp X    &kp C    &kp V    &kp B      &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH &kp TAB
                          &kp LGUI  &kp LALT &lt 3 SPACE    &lt 3 ENTER  &mo 1 &mo 2
             >;
         };
@@ -86,9 +86,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4      &kp F5         &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
-&trans  &trans  &trans  &trans  &sys_reset  &bootloader    &bootloader  &trans  &trans  &trans  &kp PRINTSCREEN  &kp F12
-&trans  &trans  &trans  &trans  &trans      &trans         &trans       &trans  &trans  &trans  &kp SCROLLLOCK   &kp PAUSE_BREAK
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4     &kp F5         &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
+&trans  &trans  &trans  &trans  &sys_reset  &trans         &trans       &trans  &trans  &kp PRINTSCREEN  &kp F12
+&trans  &trans  &trans  &trans  &trans      &trans         &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &trans  &kp SCROLLLOCK   &kp PAUSE_BREAK
                         &trans  &trans      &trans         &trans       &trans  &trans
             >;
         };
