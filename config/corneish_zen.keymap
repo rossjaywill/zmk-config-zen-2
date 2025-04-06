@@ -72,14 +72,14 @@
 
             // ---------------------------------------------------------------------------------------------------------
             // | ESC  |  !  |  "  |  #  |  $  |  %  |                       |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | SHFT |     |     |     |  @  |  #  |                       |  -  |  =  |  [  |  ]  |  #  |  ~   |
-            // | CTRL |     |     |     |     |     |                       |  _  |  +  |  {  |  }  | "|" |  `   |
+            // | SHFT |     |     |     |  @  |  #  |                       |  -  |  =  |  #  |  {  |  }  |  ~   |
+            // | CTRL |     |     |     |     |     |                       |  _  |  +  | "|" |  [  |  ]  | "|"  |
             //                    | GUI | ALT | SPC |                       | ENT |     |     |
 
             bindings = <
-&kp ESC &kp EXCL      &kp DQT       &kp HASH  &kp DLLR  &kp PRCNT            &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BKSP
-&trans  &none         &none         &none     &kp AT    &kp HASH             &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp TILDE2
-&trans  &out OUT_USB  &out OUT_BLE  &none     &none     &none                &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp NUBS  &kp TAB
+&kp ESC &kp EXCL      &kp DQT       &kp HASH  &kp DLLR  &kp PRCNT            &kp CARET  &kp AMPS   &kp ASTRK &kp LPAR  &kp RPAR  &kp BKSP
+&trans  &none         &none         &none     &kp AT    &kp HASH             &kp MINUS  &kp EQUAL  &kp BSLH  &kp LBRC  &kp RBRC  &kp TILDE2
+&trans  &out OUT_USB  &out OUT_BLE  &none     &none     &none                &kp UNDER  &kp PLUS   &kp NUBS  &kp LBKT  &kp RBKT  &kp NUBS
                                     &trans    &trans    &kp SPACE            &kp RET    &trans     &trans
             >;
         };
